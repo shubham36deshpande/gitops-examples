@@ -5,8 +5,8 @@ metadata:
   labels:
     app: pricelist
     tier: frontend
-  name: pricelist
-  namespace: pricelist
+  name: pricelist1
+  namespace: pricelist1
   annotations:
     argocd.argoproj.io/sync-wave: "2"
 spec:
