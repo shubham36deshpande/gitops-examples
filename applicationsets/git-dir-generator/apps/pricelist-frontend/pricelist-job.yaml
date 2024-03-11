@@ -3,7 +3,7 @@ kind: Job
 metadata:
   creationTimestamp: null
   name: pricelist-postdeploy
-  namespace: pricelist
+  namespace: pricelist1
   annotations:
     argocd.argoproj.io/sync-wave: "3"
 spec:
