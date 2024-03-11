@@ -3,7 +3,7 @@ kind: RoleBinding
 metadata:
   creationTimestamp: null
   name: system:openshift:scc:anyuid
-  namespace: pricelist
+  namespace: pricelist1
   annotations:
     argocd.argoproj.io/sync-wave: "2"
 roleRef:
@@ -12,5 +12,5 @@ roleRef:
   name: system:openshift:scc:anyuid
 subjects:
 - kind: ServiceAccount
-  name: pricelist-db
-  namespace: pricelist
+  name: pricelist-db1
+  namespace: pricelist1
