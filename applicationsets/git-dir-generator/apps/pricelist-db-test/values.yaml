@@ -1,0 +1,10 @@
+mysql:
+  architecture: "replication"
+  serviceAccount:
+    name: "pricelist-db1"
+  auth:
+    database: "pricelist1"
+    username: "pricelist1"
+    password: "pricelist1"
+  secondary: 
+    replicaCount: "2"
