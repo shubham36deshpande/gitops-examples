@@ -6,7 +6,7 @@ metadata:
     app: pricelist
     tier: frontend
   name: pricelist
-  namespace: pricelist
+  namespace: pricelist1
   annotations:
     argocd.argoproj.io/sync-wave: "1"
 spec:
@@ -35,11 +35,11 @@ spec:
             cpu: "256m"
         env:
         - name: MYSQL_DATABASE
-          value: pricelist
+          value: pricelist1
         - name: MYSQL_PASSWORD
-          value: pricelist
+          value: pricelist1
         - name: MYSQL_USER
-          value: pricelist
+          value: pricelist1
         - name: MYSQL_SERVICE_HOST
           value: pricelist-db-mysql-primary
         - name: MYSQL_SERVICE_PORT
