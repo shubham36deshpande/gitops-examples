@@ -5,8 +5,8 @@ metadata:
   labels:
     app: pricelist
     tier: frontend
-  name: pricelist-route
-  namespace: pricelist
+  name: pricelist-route1
+  namespace: pricelist1
   annotations:
     argocd.argoproj.io/sync-wave: "4"
 spec:
@@ -15,7 +15,7 @@ spec:
     targetPort: 8080
   to:
     kind: Service
-    name: pricelist
+    name: pricelist1
     weight: 100
 status:
   ingress:
