@@ -1,5 +1,6 @@
 {
   "values": {
+    "name": "app-test",
     "branch": "test-branch",
     "path": "applicationsets/git-dir-generator/apps/*"
   }
